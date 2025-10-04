@@ -52,4 +52,46 @@
   color: #888;
 }
 
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #5e61349c);
+  color: #f0f0f0;
+}
+
+.homepage {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(233, 182, 14, 0.082);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-family: 'Arial Rounded MT Bold','Helvetica Rounded';
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #ffd369;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+section h2 {
+  color: #e4a107;
+  /* margin-bottom: 0.5rem; */
+}
+
+section p {
+  color: #ddd;
+  line-height: 1.6;
+}
 
