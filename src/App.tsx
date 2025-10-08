@@ -29,7 +29,30 @@ function App() {
           <p>Email: georgietdk@gmail.com</p>
           {/* Add social links or a form */}
         </section>
-      </div></>
+      </div>
+      
+      <div className="petal-container">
+        {[...Array(10)].map((_, i) => {
+          const randomX = Math.random();
+          const randomSpeed = 8 + Math.random() * 8;
+
+          return (
+            <div
+              key={i}
+              className="petal"
+              style={
+                {
+                  '--i': randomX,
+                  animationDuration: `${randomSpeed}s`,
+                } as React.CSSProperties
+              }
+            />
+          );
+        })}
+      </div>
+      
+      </>
+      
   )
 }
 
